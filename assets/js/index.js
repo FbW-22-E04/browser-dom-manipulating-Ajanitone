@@ -170,3 +170,9 @@ btn.forEach((el, i) => {
     el.textContent = "Read";
   }
 });
+
+const h3Name1 = document.querySelectorAll("h3")[1].classList.toggle("mt-5");
+const h3Name2 = document.querySelectorAll("h3")[2].classList.toggle("mt-5");
+const button = document.querySelectorAll("btn")[1].classList.add("mt-3");
+
+const button2 = document.querySelectorAll("btn")[2].classList.add("mt-3");
